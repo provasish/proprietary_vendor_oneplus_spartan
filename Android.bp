@@ -4,13 +4,13 @@
 
 soong_namespace {
     imports: [
-        "vendor/oneplus/sm8250-common",
+        "vendor/realme/sm8250-common",
     ],
 }
 
 cc_prebuilt_library_shared {
     name: "com.qti.sensor.hi846",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -46,7 +46,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.sensor.imx471",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -82,7 +82,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.sensor.ov02b",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -118,7 +118,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_library_shared {
     name: "com.qti.sensor.ov64b",
-    owner: "oneplus",
+    owner: "realme",
     strip: {
         none: true,
     },
@@ -154,7 +154,7 @@ cc_prebuilt_library_shared {
 
 cc_prebuilt_binary {
     name: "android.hardware.keymaster@4.1-service-qti",
-    owner: "oneplus",
+    owner: "realme",
     target: {
         android_arm64: {
             srcs: [
